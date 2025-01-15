@@ -8,14 +8,16 @@ data = ['Omkar','20','Male','10']
 series = pd.Series(data, index=['Name', 'Age', 'Gender', 'Rating'])
 print(series)
 
-OUTPUT:
-C:\Users\Student\PycharmProjects\Omkar308\.venv\Scripts\python.exe C:\Users\Student\PycharmProjects\Omkar308\Pandas.py 
-Name      Omkar
-Age          20
-Gender     Male
-Rating       10
-dtype: object
-
 Process finished with exit code 0
 
-#
+#DataFrame Operation
+
+import pandas as pd
+
+data={
+    'Name':['omkar','parth'],
+    'Age':[20,80],
+    'Colification':['Btec','Btec']
+    }
+om= pd.DataFrame(data)
+print(om)
