@@ -21,3 +21,14 @@ data={
     }
 om= pd.DataFrame(data)
 print(om)
+
+#To display Specific Attribute in DataFrame
+import pandas as pd
+
+data={
+    'Name':['omkar','parth'],
+    'Age':[20,80],
+    'Colification':['Btec','Btec']
+    }
+om= pd.DataFrame(data)
+print(om['Name'])
